@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>he/him</a>. Kathmandu. nabinoli2004@gmail.com. Connecting Dots.
+subtitle: <a href='#'>he/him</a>. Kathmandu. nabinoli2004@gmail.com. Aspiring Applied AI Engineer.
 
 profile:
   align: right
