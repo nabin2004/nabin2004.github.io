@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Nepal's Member of Parliament Full Datasets
+title: Nepal\'s Member of Parliament Full Datasets
 description: Nepal's MPs datasets with their Party and other details
 img:
 importance: 4
