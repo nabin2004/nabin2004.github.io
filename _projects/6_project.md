@@ -28,7 +28,6 @@ It uses a custom-trained YOLOv8 model. This model is deployed on a Flask server 
   - [Hardware Components](#hardware-components)
   - [Hardware Setup](#hardware-setup)
   - [Functionality](#functionality)
-- [Contributors](#contributors)
 
 <br>
 
@@ -158,14 +157,3 @@ The alarm system, implemented on the ESP32 platform, is designed to enhance wild
    - The buzzer continues to sound for a predefined duration to ensure that users are alerted to the presence of animals.
 
 <br>
-
-# Contributors
-
-|        Name         |    Contribution     |                       Linkedin Profile                       |
-| :-----------------: | :-----------------: | :----------------------------------------------------------: |
-|   **Abhash Rai**    | Team Lead & Backend |    [Abhash Rai](https://www.linkedin.com/in/abhash-rai/)     |
-|    **Nabin Oli**    |  Machine Learning   |      [Nabin Oli](https://www.linkedin.com/in/nabinoli/)      |
-|  **Bishesh Giri**   |      Frontend       |   [Bishesh Giri](https://www.linkedin.com/in/bisheshgiri/)   |
-|  **Sudeep Fullel**  |         IOT         |  [Sudeep Fullel](https://www.linkedin.com/in/sudeepfullel/)  |
-| **Sanket Shrestha** |    Documentation    |  [Sanket Shrestha](https://www.linkedin.com/in/sanketstha/)  |
-| **Shankar Tamang**  |    Documentation    | [Shankar Tamang](https://www.linkedin.com/in/shankartamang/) |
