@@ -125,7 +125,7 @@ This project is licensed under the MIT License - see the License file for detail
 For any inquiries or feedback, please contact:
 
 - **Email**: nabinoli2004@gmail.com
-- **GitHub**: [olinabin](https://github.com/olinabin)
+- **GitHub**: [olinabin](https://github.com/nabin2004)
 
 ---
 
