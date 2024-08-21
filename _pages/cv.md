@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 5
 cv_pdf: nabinOli.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: This page consists Nabin's CV. You can also download his CV from the PDF icon.
 toc:
   sidebar: left
 ---
