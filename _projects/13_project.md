@@ -7,5 +7,4 @@ importance: 4
 category: fun
 ---
 
-
 [Link to dataset](https://www.kaggle.com/datasets/nabinoli2004/animal-dataset-for-yolo-model)

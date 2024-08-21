@@ -9,7 +9,9 @@ category: work
 ---
 
 # fruitsAndVegetablesDashboard
+
 [link to doc](https://docs.google.com/document/d/1ZmV20-Wteq6mWXgK0-JIwFp7tHsoIrxv4m5ul_xk04A/edit?usp=sharing)
+
 ## Project Overview
 
 The **fruitsAndVegetablesDashboard** project is a comprehensive data science initiative aimed at creating a full-stack solution to monitor and analyze the Kalimati Vegetable Market. This dashboard will provide real-time updates and insights into various fruits and vegetables, helping users make informed decisions based on data.
@@ -24,48 +26,55 @@ The primary goal of this project is to develop a full-stack data science solutio
 
 ## Data Source
 
-| **Source**                       | **Details**                                                                 |
-|----------------------------------|-----------------------------------------------------------------------------|
-| **Official**                     | Kalimati Fruits and Vegetables Market Development Committee  [Official Website](https://kalimatimarket.gov.np/) |
-| **Open Data Nepal**              | [Dataset](https://opendatanepal.com/dataset/kalimati-tarkari-dataset)       |
+| **Source**          | **Details**                                                                                                    |
+| ------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Official**        | Kalimati Fruits and Vegetables Market Development Committee [Official Website](https://kalimatimarket.gov.np/) |
+| **Open Data Nepal** | [Dataset](https://opendatanepal.com/dataset/kalimati-tarkari-dataset)                                          |
 
 ---
 
 ## Tools and Technologies
 
-| **Category**              | **Tool/Technology**   |
-|---------------------------|------------------------|
-| **Data Ingestion**        | Apache Spark           |
-| **Data Warehouse**        | Snowflake              |
-| **ETL (Extract, Transform, Load)** | Not yet decided       |
-| **Data Science Tasks**    | Python                 |
-| **BI Visualization**      | PowerBI                |
+| **Category**                       | **Tool/Technology** |
+| ---------------------------------- | ------------------- |
+| **Data Ingestion**                 | Apache Spark        |
+| **Data Warehouse**                 | Snowflake           |
+| **ETL (Extract, Transform, Load)** | Not yet decided     |
+| **Data Science Tasks**             | Python              |
+| **BI Visualization**               | PowerBI             |
+
 ---
 
 ## Google Data Analysis Lifecycle
 
 ### ASK
+
 - What are the top five fruits with the highest selling prices?
 - If Rukum wants to focus on vegetables, which ones would be the best to sell?
 - What are the price trends of vegetables?
 
 ### PREPARE
+
 - Gather and clean data from various sources.
 - Prepare data for analysis by transforming and loading it into the data warehouse.
 
 ### PROCESS
+
 - Develop ETL pipelines to continuously update the data.
 - Ensure data integrity and consistency.
 
 ### ANALYZE
+
 - Utilize Python for data analysis to identify trends, patterns, and insights.
 - Perform statistical analyses to answer specific business questions.
 
 ### SHARE
+
 - Create visualizations and dashboards using PowerBI to present the findings.
 - Ensure that the dashboard updates in real-time and provides actionable insights.
 
 ### ACT
+
 - Implement insights and recommendations based on data analysis.
 - Monitor and adjust strategies based on dashboard feedback and performance metrics.
 
@@ -76,16 +85,19 @@ The primary goal of this project is to develop a full-stack data science solutio
 To set up the project locally, follow these steps:
 
 1. **Clone the Repository:**
+
    ```bash
    git clone https://github.com/your-username/fruitsAndVegetablesDashboard.git
    ```
 
 2. **Navigate to the Project Directory:**
+
    ```bash
    cd fruitsAndVegetablesDashboard
    ```
 
 3. **Install Dependencies:**
+
    - Ensure you have Python, Apache Spark, and PowerBI installed.
    - Install Python dependencies:
      ```bash
@@ -93,13 +105,16 @@ To set up the project locally, follow these steps:
      ```
 
 4. **Set Up Data Ingestion:**
+
    - Configure Apache Spark for data ingestion.
    - Connect to the data sources provided.
 
 5. **Load Data:**
+
    - Follow the instructions in the `ETL` folder to set up data pipelines.
 
 6. **Run Analysis:**
+
    - Execute the Python scripts in the `analysis` folder to perform data analysis.
 
 7. **Visualize Data:**

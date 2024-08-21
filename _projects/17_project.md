@@ -7,5 +7,4 @@ importance: 4
 category: fun
 ---
 
-
 [Link to repo](https://github.com/nabin2004/College_predictor_for_IOE)

@@ -19,11 +19,18 @@ It uses a custom-trained YOLOv8 model. This model is deployed on a Flask server 
 
 # Content
 
+- [Wild Watch: Early Animal Detection for Ultimate Protection](#wild-watch-early-animal-detection-for-ultimate-protection)
+- [Content](#content)
 - [Prerequisites](#prerequisites)
 - [Yolo model](#yolo-model)
 - [Server](#server)
+  - [Ports and Endpoints](#ports-and-endpoints)
 - [Frontend](#frontend)
 - [Alert System](#alert-system)
+  - [Hardware Components](#hardware-components)
+  - [Hardware Setup](#hardware-setup)
+  - [Functionality](#functionality)
+  - [Code Snippets](#code-snippets)
 - [Contributors](#contributors)
 
 <br>
@@ -52,13 +59,14 @@ python server.py
 ```
 
 Certain parameters in the `config.json` file can be changed to customize the system's behavior:
+
 ```json
 {
-    "yolo_model_path": "best.pt",
-    "url": 0,
-    "scale_factor": 0.5,
-    "confidence_threshold": 0.65,
-    "esp32_api": "http://192.168.23.188/api/animal-detected"
+  "yolo_model_path": "best.pt",
+  "url": 0,
+  "scale_factor": 0.5,
+  "confidence_threshold": 0.65,
+  "esp32_api": "http://192.168.23.188/api/animal-detected"
 }
 ```
 
@@ -112,11 +120,9 @@ The alarm system, implemented on the ESP32 platform, is designed to enhance wild
 ## Hardware Components
 
 1. `ESP32 Microcontroller`: The ESP32 microcontroller serves as the central processing unit for the IoT alarm system. Itreceives input from the server and manages the communication with other hardware components, ensuring alerting when required.
-   
-3. `LCD Display (16x2)`: The 16x2 I2C LCD display is used to provide visual alerts to users. It displays messages such as "No Animal Detected," "Single Animal Detected," or "Multiple Animals Detected" based on the detection results.
-   
-5. `Buzzer`: The buzzer is employed to provide audible alerts when animals are detected. It emits a sound to alert users of potential wildlife activity, ensuring that alerts are not missed even in noisy environments.
-   
+2. `LCD Display (16x2)`: The 16x2 I2C LCD display is used to provide visual alerts to users. It displays messages such as "No Animal Detected," "Single Animal Detected," or "Multiple Animals Detected" based on the detection results.
+3. `Buzzer`: The buzzer is employed to provide audible alerts when animals are detected. It emits a sound to alert users of potential wildlife activity, ensuring that alerts are not missed even in noisy environments.
+
 ## Hardware Setup
 
 1. **ESP32 Setup**:
@@ -160,16 +166,15 @@ The alarm system, implemented on the ESP32 platform, is designed to enhance wild
 
 - [test_iot_server.py](IoT/test_iot_server.py): contains the testing script used to send signal to the alaram system to activate alarming
 
-
 <br>
 
 # Contributors
 
-| Name              | Contribution          | Linkedin Profile                              |
-|:-----------------:|:---------------------:|:---------------------------------------------:|
-| **Abhash Rai**    | Team Lead & Backend | [Abhash Rai](https://www.linkedin.com/in/abhash-rai/) |
-| **Nabin Oli**     | Machine Learning      | [Nabin Oli](https://www.linkedin.com/in/nabinoli/) |
-| **Bishesh Giri**  | Frontend              | [Bishesh Giri](https://www.linkedin.com/in/bisheshgiri/) |
-| **Sudeep Fullel** | IOT                   | [Sudeep Fullel](https://www.linkedin.com/in/sudeepfullel/) |
-| **Sanket Shrestha** | Documentation       | [Sanket Shrestha](https://www.linkedin.com/in/sanketstha/) |
-| **Shankar Tamang**  | Documentation       | [Shankar Tamang](https://www.linkedin.com/in/shankartamang/) |
+|        Name         |    Contribution     |                       Linkedin Profile                       |
+| :-----------------: | :-----------------: | :----------------------------------------------------------: |
+|   **Abhash Rai**    | Team Lead & Backend |    [Abhash Rai](https://www.linkedin.com/in/abhash-rai/)     |
+|    **Nabin Oli**    |  Machine Learning   |      [Nabin Oli](https://www.linkedin.com/in/nabinoli/)      |
+|  **Bishesh Giri**   |      Frontend       |   [Bishesh Giri](https://www.linkedin.com/in/bisheshgiri/)   |
+|  **Sudeep Fullel**  |         IOT         |  [Sudeep Fullel](https://www.linkedin.com/in/sudeepfullel/)  |
+| **Sanket Shrestha** |    Documentation    |  [Sanket Shrestha](https://www.linkedin.com/in/sanketstha/)  |
+| **Shankar Tamang**  |    Documentation    | [Shankar Tamang](https://www.linkedin.com/in/shankartamang/) |
