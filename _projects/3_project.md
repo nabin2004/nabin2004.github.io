@@ -1,81 +1,132 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: Kalimati Realtime Vegetable Dashboard
+description: Comprehensive full-stack Data Science project
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# fruitsAndVegetablesDashboard
+[link to doc](https://docs.google.com/document/d/1ZmV20-Wteq6mWXgK0-JIwFp7tHsoIrxv4m5ul_xk04A/edit?usp=sharing)
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The **fruitsAndVegetablesDashboard** project is a comprehensive data science initiative aimed at creating a full-stack solution to monitor and analyze the Kalimati Vegetable Market. This dashboard will provide real-time updates and insights into various fruits and vegetables, helping users make informed decisions based on data.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Project Aim
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+The primary goal of this project is to develop a full-stack data science solution, including a dynamic dashboard that presents up-to-date information about different fruits and vegetables available in the Kalimati Vegetable Market.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+---
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Data Source
 
-{% raw %}
+| **Source**                       | **Details**                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| **Official**                     | Kalimati Fruits and Vegetables Market Development Committee  [Official Website](https://kalimatimarket.gov.np/) |
+| **Open Data Nepal**              | [Dataset](https://opendatanepal.com/dataset/kalimati-tarkari-dataset)       |
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+---
 
-{% endraw %}
+## Tools and Technologies
+
+| **Category**              | **Tool/Technology**   |
+|---------------------------|------------------------|
+| **Data Ingestion**        | Apache Spark           |
+| **Data Warehouse**        | Snowflake              |
+| **ETL (Extract, Transform, Load)** | Not yet decided       |
+| **Data Science Tasks**    | Python                 |
+| **BI Visualization**      | PowerBI                |
+---
+
+## Google Data Analysis Lifecycle
+
+### ASK
+- What are the top five fruits with the highest selling prices?
+- If Rukum wants to focus on vegetables, which ones would be the best to sell?
+- What are the price trends of vegetables?
+
+### PREPARE
+- Gather and clean data from various sources.
+- Prepare data for analysis by transforming and loading it into the data warehouse.
+
+### PROCESS
+- Develop ETL pipelines to continuously update the data.
+- Ensure data integrity and consistency.
+
+### ANALYZE
+- Utilize Python for data analysis to identify trends, patterns, and insights.
+- Perform statistical analyses to answer specific business questions.
+
+### SHARE
+- Create visualizations and dashboards using PowerBI to present the findings.
+- Ensure that the dashboard updates in real-time and provides actionable insights.
+
+### ACT
+- Implement insights and recommendations based on data analysis.
+- Monitor and adjust strategies based on dashboard feedback and performance metrics.
+
+---
+
+## Getting Started
+
+To set up the project locally, follow these steps:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/fruitsAndVegetablesDashboard.git
+   ```
+
+2. **Navigate to the Project Directory:**
+   ```bash
+   cd fruitsAndVegetablesDashboard
+   ```
+
+3. **Install Dependencies:**
+   - Ensure you have Python, Apache Spark, and PowerBI installed.
+   - Install Python dependencies:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+4. **Set Up Data Ingestion:**
+   - Configure Apache Spark for data ingestion.
+   - Connect to the data sources provided.
+
+5. **Load Data:**
+   - Follow the instructions in the `ETL` folder to set up data pipelines.
+
+6. **Run Analysis:**
+   - Execute the Python scripts in the `analysis` folder to perform data analysis.
+
+7. **Visualize Data:**
+   - Open PowerBI and import the datasets.
+   - Use the provided PowerBI templates to create your dashboard.
+
+---
+
+## Contribution
+
+Contributions are welcome! Please follow the standard Git workflow for submitting issues and pull requests. Ensure that your contributions are well-documented and tested.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the License file for details.
+
+---
+
+## Contact
+
+For any inquiries or feedback, please contact:
+
+- **Email**: nabinoli2004@gmail.com
+- **GitHub**: [olinabin](https://github.com/olinabin)
+
+---
+
+Thank you for your interest in the fruitsAndVegetablesDashboard project!

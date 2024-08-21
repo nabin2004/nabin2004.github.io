@@ -1,85 +1,87 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Nabin Oli",
+    "label": "Research Intern",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
+    "email": "nabin.oli@cair-nepal.org",
+    "phone": "+977-9848185797",
+    "url": "https://nabin2004.github.io",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Kathmandu, Nepal",
+      "postalCode": "NP 22000",
+      "city": "Kathmandu",
+      "countryCode": "NP",
+      "region": "Bagmati"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "nabintwts",
+        "url": "https://twitter.com/nabintwts"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Center for Artificial Intelligence (AI) Research Nepal",
+      "position": "Research Intern",
+      "url": "https://cair-nepal.org/teams/display-profile/nabin-oli",
+      "startDate": "2024-04-01",
+      "endDate": "",
+      "summary": "Working on developing the Neuro-Sympbolic AI to showcase rich Nepalese Cultural Heritage",
+      "highlights": ["Ontology, Knowledge Graph, LLM, Research"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Sunway College Kathmandu",
+      "location": "Maitidevi, Kathmandu",
+      "url": "https://sunway.edu.np/",
+      "area": "Data Science",
+      "studyType": "BSc",
+      "startDate": "2023",
+      "endDate": "2027",
+      "score": "First Class Honours (Till Now)",
+      "courses": ["Computer Programming in Python, OOP in Java,Intro to Data Science in R, Computer System, Web Design and Development, Data Structure and Algorithm in Python, Database and Web Application development, Probability and Statistics"]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Sunway Always Prepared Award",
+      "date": "2023",
+      "awarder": "Sunway College Kathmandu",
+      "url": "",
+      "summary": "On the occasion of Annual Day, Nabin Oli was awarded for Sunway Always Prepared Award for his exceptional preparedness before lectures and classes"
+    },
+    {
+      "title": "Sunwayians Thrive: Beyond the Classroom (Got featured twice successively)",
+      "date": "2023",
+      "awarder": "Sunway College Kathmandu",
+      "url": "",
+      "summary": "Nabin Oli was featured twice successively in Sunwayians Thrive: Beyond the Classroom for his exceptional performance in learning outside the classroom as well as his contribution to the college community"
+    },
+    {
+      "title": "XP Champ Award",
+      "date": "2023",
+      "awarder": "Sunway Student Representative Council (SSRC)",
+      "url": "",
+      "summary": "On the occasion of Annual Day, Nabin Oli was awarded for Sunway Always Prepared Award for his exceptional preparedness before lectures and classes"
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Associate Data Scientist in Python",
+      "date": "MAY 10, 2024",
+      "issuer": "Dataccamp",
+      "url": "https://www.datacamp.com/statement-of-accomplishment/track/10c4149f54568316e7ef8f6cb0195862db25bff8?raw=1",
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Supervised Machine Learning: Regression and Classification",
+      "date": "Apr 21 2023",
+      "issuer": "Deeplearning.AI",
+      "url": "https://www.coursera.org/account/accomplishments/verify/GSLE8RJ5JUZD",
       "icon": "fa-solid fa-tag"
     },
     {
@@ -109,92 +111,322 @@
       "issuer": "Stanford University",
       "url": "https://example.com",
       "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Introduction to Python",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Introduction to SQL",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Intermediate Python",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Intermediate SQL",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Data Manipulation with pandas",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Supervised Learning with scikit-learn",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Python Data Science Toolbox (Part 1)",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Exploratory Data Analysis in Python",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Python Data Science Toolbox (Part 2)",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Introduction to Statistics in Python",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Joining Data with pandas",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Introduction to Data Visualization with Matplotlib",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Introduction to Importing Data in Python",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Introduction to Data Visualization with Seaborn",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Introduction to Git",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Intermediate Importing Data in Python",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Visualizing Geospatial Data in Python",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Introduction to PySpark",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Cleaning Data in Python",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Introduction to Snowflake",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Unsupervised Learning in Python",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Data Communication Concepts",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Machine Learning with Tree-Based Models in Python",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Hypothesis Testing in Python",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Sampling in Python",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Introduction to Regression with statsmodels in Python",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Writing Functions in Python",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Working with Dates and Times in Python",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Data Structures and Algorithms in Python",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Introduction to Shell",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "AWS Cloud Technology and Services",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Working with Categorical Data in Python",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Software Engineering Principles in Python",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Data Types for Data Science in Python",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Improving Your Data Visualizations in Python",
+      "date": "MAY 10, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/portfolio/olinabin2004",
+      "icon": "fa-solid fa-location-dot"
     }
+    
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Heritage Graph: A Knowledge Graph for Nepalese Cultural Heritage",
+      "publisher": "",
+      "releaseDate": "Ongoing",
+      "url": "",
+      "summary": "The Heritage Graph is a knowledge graph that aims to showcase the rich cultural heritage of Nepal. It is developed using the latest technologies in the field of AI and Semantic Web."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Data Science",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Data Wrangling",
+        "Data Visualization",
+        "Data Manipulation",
+        "Importing Data",
+        "Machine Learning",
+        "Deep learning",
+        "Data Cleaning",
+        "Data Analysis",
+        "Research"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
       "language": "English",
       "fluency": "Fluent",
+      "icon": ""
+    },   
+    {
+      "language": "Nepali",
+      "fluency": "Native speaker",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Neuro-Symbolic AI",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Knowledge Graphs",
+        "Ontology",
+        "LLM",
+        "Research",
+        "AI",
+        "Semantic Web"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Tek Raj Chhetri",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Nabin Oli worked closely with Tek Raj Chhetri as a Research Intern D"
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Heritage Graph: A Knowledge Graph for Nepalese Cultural Heritage",
+      "summary": "The Heritage Graph is a knowledge graph that aims to showcase the rich cultural heritage of Nepal. It is developed using the latest technologies in the field of AI and Semantic Web.",
+      "highlights": ["Ontology, Knowledge Graph, LLM, Research"],
+      "startDate": "2024-04-01",
+      "endDate": "present",
+      "url": "https://cair-nepal.org/research/projects/heritagegraph-illuminating-cultural-legacies-throu"
     }
   ]
 }

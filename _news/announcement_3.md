@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Appointed as Data Fellowship Co-coordinator @Datacamp Donates X SSRC club! :sparkles: :smile:

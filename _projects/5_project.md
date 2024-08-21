@@ -1,80 +1,42 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: Data Bank Nepal
+description: Teaching Nepalese to leave proverb and Use Data
 img: assets/img/1.jpg
 importance: 3
 category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### Data Bank Nepal
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Empowering Nepal with Data-Driven Decisions**
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+In an era where information is power, Data Bank Nepal stands at the forefront of transforming how decisions are made in Nepal. Our mission is to provide unparalleled access to accurate, comprehensive, and actionable data, enabling individuals, businesses, and policymakers to make informed, evidence-based decisions. We utilize rigorous statistical methods and modern data science techniques, including data engineering, to ensure the reliability and relevance of our data offerings.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+#### Why Data Bank Nepal?
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+In Nepal, traditional beliefs, crowd opinions, and high-pitched rhetoric often overshadow the need for factual analysis. Even seasoned politicians rely on proverbs to sway public opinion and win debates. At Data Bank Nepal, we believe it’s time for a change. In the 21st century, proverbs are outdated; data is the new wisdom.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+#### Our Services
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- **Data Access**: We offer a vast repository of data across various sectors, from economics and health to education and environment.
+- **Data Analysis**: Our team of experts employs rigorous statistical techniques to provide insightful analyses, helping you understand the story behind the numbers.
+- **Modern Data Science**: Utilizing cutting-edge data engineering practices, we ensure that our data is not only comprehensive but also meticulously curated and easily accessible.
+- **Consultation**: Tailored advisory services to guide you in implementing data-driven strategies.
+- **Training & Workshops**: Empowering you with the skills and knowledge to leverage data effectively.
 
-{% raw %}
+#### Our Vision
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+To create a Nepal where decisions at every level are driven by real, verifiable facts and insights, fostering a more informed, efficient, and progressive society.
 
-{% endraw %}
+#### Our Mission
+
+To bridge the gap between raw data and meaningful insights, transforming how Nepalese society perceives and utilizes information. By championing data literacy and accessibility, we aim to elevate the standard of decision-making across all sectors.
+
+#### Join Us
+
+Embrace the power of data with Data Bank Nepal. Let’s move beyond the noise and make decisions based on facts, not just folklore.
+
+---
+
+Together, we can build a future where data-driven decisions lead to sustainable development and a prosperous Nepal.
