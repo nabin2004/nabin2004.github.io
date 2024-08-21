@@ -9,8 +9,6 @@ category: fun
 
 # Wild Watch: Early Animal Detection for Ultimate Protection
 
-![demo](https://github.com/abhash-rai/wild-watch/assets/106548397/c6b3ae69-bbe5-409f-ad2d-2e3170d809e0)
-
 Wild watch aims to boost safety along Nepal's wildlife habitats bordering human settlements using object detection technique. It spots dangerous animals and alerts authorities or nearby communities for swift action, focusing on areas near national parks, wildlife reserves, and forests.
 
 It uses a custom-trained YOLOv8 model. This model is deployed on a Flask server for processing of live feed, which is then recieved by a react app and an alert system. Alert system seamlessly integrates IoT components like LCD displays and buzzers, enabling timely alerts for proactive measures.
@@ -30,7 +28,6 @@ It uses a custom-trained YOLOv8 model. This model is deployed on a Flask server 
   - [Hardware Components](#hardware-components)
   - [Hardware Setup](#hardware-setup)
   - [Functionality](#functionality)
-  - [Code Snippets](#code-snippets)
 - [Contributors](#contributors)
 
 <br>
@@ -46,7 +43,7 @@ It uses a custom-trained YOLOv8 model. This model is deployed on a Flask server 
 # Yolo model
 
 - Data was collected, augmented and annotated. You can find it here: <a href='https://drive.google.com/drive/folders/1m8P8-fzJ1uP6EHWUPU4veKx_WV0CSM4I?usp=sharing'>Google Drive</a>
-- Yolov8 model architecture was trained on the given data. You can find the model here: ![best.pt](flask-server/best.pt)
+- Yolov8 model architecture was trained on the given data.
 
 <br>
 
@@ -159,12 +156,6 @@ The alarm system, implemented on the ESP32 platform, is designed to enhance wild
 3. **Buzzer Activation**:
    - When animals are detected, the ESP32 activates the buzzer to emit a sound alert.
    - The buzzer continues to sound for a predefined duration to ensure that users are alerted to the presence of animals.
-
-## Code Snippets
-
-- [Esp32_server.c++](IoT/Esp32_server.c++): contains the script used in esp32 of the alarm system
-
-- [test_iot_server.py](IoT/test_iot_server.py): contains the testing script used to send signal to the alaram system to activate alarming
 
 <br>
 
