@@ -12,14 +12,14 @@ profiles:
   - align: right
     image: sushilphuyal.png
     content: about_sushilPhuyal.md
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     more_info: >
       <p>sushilphuyel@gmail.com</p>
       <p>Kathmandu, Nepal</p>
   - align: left
     image:
     content: about_NishaMam.md
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     more_info: >
       <p>Sunway College Kathmandu</p>
       <p>admissions@sunway.edu.np</p>
@@ -27,7 +27,7 @@ profiles:
   - align: right
     image: dad.png
     content: about_dad.md
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     more_info: >
       <p>My Home :-)</p>
       <p>Western Rukum, Nepal</p>
