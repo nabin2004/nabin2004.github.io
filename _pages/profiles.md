@@ -10,15 +10,14 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: prof_pic.jpg
-    content: about_dad.md
+    image: sushilphuyal.png
+    content: about_sushilPhuyal.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>My Home :-)</p>
-      <p>Western Rukum, Nepal</p>
-      <p>kriparam2000@yahoo.com</p>
+      <p>sushilphuyel@gmail.com</p>
+      <p>Kathmandu, Nepal</p>
   - align: left
-    image: prof_pic.jpg
+    image:
     content: about_NishaMam.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -26,10 +25,11 @@ profiles:
       <p>admissions@sunway.edu.np</p>
       <p>Maitidevi, Kathmandu</p>
   - align: right
-    image: prof_pic.jpg
-    content: about_sushilPhuyal.md
+    image: dad.png
+    content: about_dad.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>sushilphuyel@gmail.com</p>
-      <p>Kathmandu, Nepal</p>
+      <p>My Home :-)</p>
+      <p>Western Rukum, Nepal</p>
+      <p>kriparam2000@yahoo.com</p>
 ---
