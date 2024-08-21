@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: people
-description: members of the lab or group
+description: Thanks to these people for making change in my life
 nav: true
 nav_order: 7
 
@@ -11,18 +11,25 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: right
     image: prof_pic.jpg
-    content: about_einstein.md
+    content: about_dad.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>My Home :-)</p>
+      <p>Western Rukum, Nepal</p>
+      <p>kriparam2000@yahoo.com</p>
   - align: left
     image: prof_pic.jpg
-    content: about_einstein.md
+    content: about_NishaMam.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>Sunway College Kathmandu</p>
+      <p>admissions@sunway.edu.np</p>
+      <p>Maitidevi, Kathmandu</p>
+  - align: right
+    image: prof_pic.jpg
+    content: about_sushilPhuyal.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>sushilphuyel@gmail.com</p>
+      <p>Kathmandu, Nepal</p>
 ---
