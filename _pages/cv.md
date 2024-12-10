@@ -4,8 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: nabinOli.pdf
-description: This page consists Nabin's CV. You can also download his CV from the PDF icon.
-toc:
-  sidebar: left
 ---
+
+
+<iframe src="https://drive.google.com/file/d/1qiNhEdG_-uJB5j5R8nnfEgOqqZQICDi3/preview" width="640" height="480" allow="autoplay"></iframe>
