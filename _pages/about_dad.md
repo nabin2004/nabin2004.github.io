@@ -1,1 +1,0 @@
-He is my dad who worked for more than 25 years away from home country for providing me best education. Whatever I become in the future, he is the person who sacrificed things for providing priviledgeness to me. I love you dad. You are super human.
