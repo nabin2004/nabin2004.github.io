@@ -2,7 +2,7 @@
 layout: page
 title: pydplyr
 description: A Pythonic Approach to Data Manipulation Inspired by R's dplyr
-img: assets/img/3.jpg
+img:
 importance: 2
 category: work
 giscus_comments: true

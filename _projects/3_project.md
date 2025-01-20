@@ -2,7 +2,7 @@
 layout: page
 title: HeritageGraph
 description: Preserving Nepal's cultural heritages using Knowledge graphs
-img: assets/img/7.jpg
+img: 
 redirect: https://cair-nepal.org/research/projects/heritagegraph-illuminating-cultural-legacies-throu
 importance: 3
 category: work

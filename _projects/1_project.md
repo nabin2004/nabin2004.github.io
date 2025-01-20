@@ -2,7 +2,7 @@
 layout: page
 title: ChessXAI
 description: Explainable Chess AI - Bridging Strategy and Transparency
-img: assets/img/12.jpg
+img: 
 importance: 1
 category: work
 related_publications: true
