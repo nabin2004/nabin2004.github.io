@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Machine Learning Intern @</a>. Wiseyak.
+subtitle: Junior Machine Learning Engineer @ <a href='https://wiseyak.com/'>Wiseyak</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Sunway College Kathmandu</p>
@@ -18,12 +18,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Growing up in a remote part of Nepal, I was motivated by two transformative forces: electricity, which brought computers to my school, and the internet, which linked the world. This reinforces my opinion that AI is the new electricity—it may take time, but it will alter every industry.
+[language isn’t just a tool for communication](). It’s how we interrogate our own thoughts. It's how we challenge what we know, to reach what we don’t know yet. That’s what makes [NLP more than just a subfield of AI](). It’s a path to building machines that can [reason](), [reflect](), and maybe even [rethink]().
 
-I'm Nabin Oli, a BSc (Hons) Data Science student from [Sunway College Kathmandu](https://sunway.edu.np/) with an outstanding academic record. I work on the [Wiseyak](https://wiseyak.com/) AI Team and have helped [Center for AI Research Nepal](https://cair-nepal.org/) preserve [Nepal's cultural heritage through the use of knowledge graphs](https://cair-nepal.org/research/projects/heritagegraph-illuminating-cultural-legacies-throu). I am the [Operations Coordinator](https://www.linkedin.com/posts/pie-ai-kathmandu_datascience-artificialintelligence-operations-activity-7266288171229847552-wABV?utm_source=share&utm_medium=member_desktop) at [Pie and AI Kathmandu](https://www.linkedin.com/company/pie-ai-kathmandu/), as well as the Moderator of the Data Fellowship Program at the [SSRC](https://sunway.edu.np/event/applauding-the-data-fellowship-award-winners-champions-of-innovation/). 
+[AI is the new electricity.]()  I may not become the [Edison]() of this revolution, but I intend to be part of this new-age electricity at the very least.
 
+Resources? I’ve never had many. But neither did the Wright brothers, and they still flew before nations did. My ambition is to build [billion-parameter-scale models]() before I finish my undergrad. [Not because it's easy or funded but because it's possible.]()
 
-I play chess for fun.
+I play chess for fun. -->
 
 
 
