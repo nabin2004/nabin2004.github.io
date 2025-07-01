@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/mysessions/";
           },
-        },{id: "news-appointed-operation-coordinator-pie-and-ai-kathmandu",
+        },{id: "post-self-attention-mechanism",
+      
+        title: "Self Attention Mechanism",
+      
+      description: "Self-Attention Mechanism",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/self-attention/";
+        
+      },
+    },{id: "news-appointed-operation-coordinator-pie-and-ai-kathmandu",
           title: 'Appointed Operation Coordinator @ Pie and AI Kathmandu',
           description: "",
           section: "News",},{id: "news-machine-learning-internship-wiseyak",
