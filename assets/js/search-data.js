@@ -51,15 +51,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/mysessions/";
           },
-        },{id: "post-self-attention-mechanism",
+        },{id: "post-",
       
-        title: "Self Attention Mechanism",
+        title: "",
       
-      description: "Self-Attention Mechanism",
+      description: "",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2024/self-attention/";
+          window.location.href = "/blog/2025/2025-07-28-word-embeddings/";
         
       },
     },{id: "news-appointed-operation-coordinator-pie-and-ai-kathmandu",
@@ -70,6 +70,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-junior-machine-learning-engineer-wiseyak",
           title: 'Junior Machine Learning Engineer @ Wiseyak',
+          description: "",
+          section: "News",},{id: "news-no-longer-junior-machine-learning-engineer-wiseyak",
+          title: 'No longer Junior Machine Learning Engineer @ Wiseyak',
           description: "",
           section: "News",},{id: "projects-chessxai",
           title: 'ChessXAI',
