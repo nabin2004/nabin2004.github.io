@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Geometry of Language in NLP, Word Embeddings from One-Hot Vectors to Contextual Representations
+title: The Geometry of words in NLP
 date: 2025-07-28 12:19:00
 description: A beginner-friendly guide to understanding how word embeddings like Word2Vec and GloVe capture meaning, and why simple vector math like 'king - man + woman = queen' actually works in practice.
 tags: word, representation, word embeddings, NLP
