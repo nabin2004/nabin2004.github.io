@@ -51,9 +51,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/mysessions/";
           },
-        },{id: "post-the-geometry-of-language-in-nlp-word-embeddings-from-one-hot-vectors-to-contextual-representations",
+        },{id: "post-the-geometry-of-words-in-nlp",
       
-        title: "The Geometry of Language in NLP, Word Embeddings from One-Hot Vectors to Contextual...",
+        title: "The Geometry of words in NLP",
       
       description: "A beginner-friendly guide to understanding how word embeddings like Word2Vec and GloVe capture meaning, and why simple vector math like &#39;king - man + woman = queen&#39; actually works in practice.",
       section: "Posts",
