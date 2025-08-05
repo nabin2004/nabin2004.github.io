@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Junior Machine Learning Engineer @ <a href='https://wiseyak.com/'>Wiseyak</a>
+subtitle: I train neural networks :)
 
 profile:
   align: right
@@ -18,14 +18,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-[language isn’t just a tool for communication](). It’s how we interrogate our own thoughts. It's how we challenge what we know, to reach what we don’t know yet. That’s what makes [NLP more than just a subfield of AI](). It’s a path to building machines that can [reason](), [reflect](), and maybe even [rethink]().
+[language isn’t just a tool for communication](). It’s how we interrogate our own thoughts. It's how we challenge what we know, to reach what we don’t know yet. That’s what makes [NLP more than just a subfield of AI]() for me. It’s a path to building machines that can [reason](), [reflect](), and maybe even [rethink]().
 
-[AI is the new electricity.]()  I may not become the [Edison]() of this revolution, but I intend to be part of this new-age electricity at the very least.
+Plenty of country with lots of resources wanted to fly back then but Wright brothers were first to fly before even some powerful nations. That motivates me to pursue this field and also defines where I want to head to in future.
 
-Resources? I’ve never had many. But neither did the Wright brothers, and they still flew before nations did. My ambition is to build [billion-parameter-scale models]() before I finish my undergrad. [Not because it's easy or funded but because it's possible.]()
-
-I play chess for fun. -->
-
+[AI is the new electricity.]()  If not Edison of this new electricity, I would want to become part of the grid at very least. 
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
