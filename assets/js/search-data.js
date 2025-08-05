@@ -51,15 +51,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/mysessions/";
           },
-        },{id: "post-",
+        },{id: "post-the-geometry-of-language-in-nlp-word-embeddings-from-one-hot-vectors-to-contextual-representations",
       
-        title: "",
+        title: "The Geometry of Language in NLP, Word Embeddings from One-Hot Vectors to Contextual...",
       
-      description: "",
+      description: "A beginner-friendly guide to understanding how word embeddings like Word2Vec and GloVe capture meaning, and why simple vector math like &#39;king - man + woman = queen&#39; actually works in practice.",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/2025-07-28-word-embeddings/";
+          window.location.href = "/blog/2025/word-embeddings/";
         
       },
     },{id: "news-appointed-operation-coordinator-pie-and-ai-kathmandu",
