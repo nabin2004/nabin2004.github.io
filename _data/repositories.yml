@@ -1,9 +1,21 @@
-#github_users:
-#  - nabin2004
+github_users:
+  - nabin2004
 
 repo_description_lines_max: 2
 
 github_repos:
-  - nabin2004/ChessInDjango
-  - nabin2004/pydplyr
-  - CAIRNepal/CHLOD
+  - nabin2004/dagestan
+  - nabin2004/ManiBench
+  - nabin2004/dialograph
+  - nabin2004/CS224_final_project_GPT2
+  - nabin2004/pytork
+  - nabin2004/ChessMania
+  - nabin2004/Makesense-MLOps-Pipeline
+  - nabin2004/PaperTrail
+  - nabin2004/dualmation
+  - nabin2004/Manimator
+  - nabin2004/NetSecMLOps
+  - nabin2004/Vision-Transformer
+  - nabin2004/SwinTransformer
+  - nabin2004/DeepBlocks
+  - nabin2004/MomoPedia

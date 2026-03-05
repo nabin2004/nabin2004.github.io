@@ -3,89 +3,127 @@
   contents:
     - name: Full Name
       value: Nabin Oli
-    - name: Date of Birth
-      value: 14th April
+    - name: Email
+      value: nabinoli2004@gmail.com
+    - name: Phone
+      value: +977-9848185797
     - name: Languages
       value: English, Nepali
 
 - title: Education
   type: time_table
   contents:
-    - title: BSc (Hons) Data Science
-      institution: Sunway College Kathmandu, Nepal
-      year: 2021 - Present
+    - title: BSc (Hons.) Data Science
+      institution: Sunway College Kathmandu (Affiliated with Birmingham City University, UK)
+      year: 2023 - 2027 (Expected)
       description:
-        - Pursuing First Class Honors (Highest distinction in the British system).
-        - Focused on machine learning, data analysis, and AI applications.
-    - title: Higher Secondary Education
-      institution: Trinity International College, Kathmandu, Nepal
-      year: 2018 - 2020
-      description:
-        - Studied Computer Science and Mathematics.
-        - Achieved outstanding academic performance.
+        - Consistently maintained First-Class Honours.
+        - "Relevant Coursework: Data Structures & Algorithms, Linear Algebra, Probability & Statistics, Database Systems, OOP (Java), Data Visualization with R, Web Application Development."
 
 - title: Experience
   type: time_table
   contents:
-    - title: Machine Learning Intern
-      institution: Wiseyak, Nepal
-      year: 2023 - Present
+    - title: Research Intern — Knowledge Representation
+      institution: Center for AI Research Nepal (CAIR)
+      year: Aug 2025 – Present
       description:
-        - Working on the AI team to develop and deploy machine learning models.
-        - Contributing to projects involving natural language processing and computer vision.
-    - title: Heritage Graph Project Contributor
-      institution: CAIR-Nepal
-      year: 2022 - 2023
+        - "Collaborated with team to design and formalize HeritageGraph, an OWL ontology for Nepal's cultural heritage aligned with CIDOC-CRM; validated for logical consistency and achieved full competency question coverage (32/32) under the supervision of Dr. Tek Raj Chhetri."
+        - "Established cross-standard semantic alignment across 13 vocabularies including CIDOC-CRM (42 classes, 71 properties) and PROV-O."
+        - "Verified OWL-RL logical consistency via deductive closure, producing 17,894 inferred triples with zero unsatisfiable classes; authored SHACL constraint schemas reducing data integrity violations by ~30%."
+    - title: Machine Learning Intern — Speech Processing
+      institution: Wiseyak Inc.
+      year: Jan 2025 – July 2025
       description:
-        - Worked on cultural heritage preservation using knowledge graphs.
-        - Developed semantic web technologies to map and analyze heritage data.
-    - title: Operation Coordinator
-      institution: Pie and AI Kathmandu
-      year: 2022 - Present
-      description:
-        - Organizing AI-focused events, workshops, and knowledge-sharing sessions.
-        - Building a community of AI enthusiasts and professionals.
-    - title: Data Fellowship Program Moderator
-      institution: Sunway Student Representative Club
-      year: 2022 - Present
-      description:
-        - Mentoring students in data science and AI.
-        - Facilitating learning and collaboration among peers.
+        - "Contributed to a real-time Nepali ASR pipeline integrating acoustic modeling, language modeling, and post-processing for banking customer service, achieving <2s end-to-end latency."
+        - "Fine-tuned the Indic Conformer model using NVIDIA NeMo for Nepali speech-to-text, reducing WER by ~18% over baseline."
+        - "Trained a 117M-parameter GPT-2 for ASR post-processing using 40,000+ Nepali Wikipedia articles, improving transcription accuracy by ~12%."
+        - "Built KenLM n-gram rescoring models (bi/tri/4-gram), reducing WER by ~9% on held-out banking domain test sets."
+        - "Developed an XLM-RoBERTa-based masked language model for English–Nepali transliteration, achieving ~87% top-1 accuracy."
 
-- title: Open Source Projects
+- title: Open Source Contributions
   type: time_table
   contents:
-    - title: ChessXAI
-      year: 2023 - Present
-      description: An explainable AI project for chess, designed to make AI decision-making transparent and accessible.
-    - title: pydplyr
-      year: 2023 - Present
-      description: A Python library inspired by R's dplyr, simplifying data manipulation tasks with a fluent API.
+    - title: Hugging Face TRL — Open Source Contributor
+      institution: Hugging Face
+      year: Feb 2026
+      description:
+        - "PR #5091: Added Multi-Node Training subsection to TRL distributed training docs. (Merged)"
+        - "PR #5002: Added CGPO / Mixture of Judges entry to the TRL Paper Index. (Merged)"
 
-- title: Honors and Awards
+- title: Publications
   type: time_table
   contents:
-    # - year: 2023
-    #   items:
-    #     - First Class Honors in BSc (Hons) Data Science.
-    # - year: 2022
-    #   items:
-    #     - Recognition for contributions to the Heritage Graph Project at CAIR-Nepal.
+    - title: "Knowledge Graphs: Structure, Function, and Significance"
+      year: 2025
+      description: Book Chapter 3 — Under Review at Elsevier (CAIR-Nepal).
+    - title: "ManiBench: A Benchmark for Testing Visual-Logic Drift and Syntactic Hallucinations in Manim Code Generation"
+      year: Feb 2026
+      description: Paper — Presented at LOCUS Research Symposium (NAST, Lalitpur).
+    - title: "Dialograph: A decision-theoretic framework for proactive educational dialogue using temporal graphs"
+      year: 2026
+      description: Paper — In Review at 2026 International Conference on Applied Artificial Intelligence (2AI).
 
-- title: Academic Interests
+- title: Awards & Recognitions
+  type: time_table
+  contents:
+    - title: Fusemachines AI Fellowship
+      year: 2025
+      description: Selected as 1 of 150 fellows from 3,000 applicants nationwide.
+    - title: Data Fellowship (DataCamp)
+      year: 2023
+      description: Awarded a full-year scholarship to the DataCamp platform.
+    - title: Kaggle Dataset Expert
+      year: 2024
+      description: "Global rank 946 / 15,470 in Kaggle dataset rankings."
+    - title: DataCrunch Hackathon
+      year: 2024
+      description: Won 3rd place in nationwide competition organized by Code for Nepal.
+
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Machine Learning and AI
+    - title: Languages
       items:
-        - Exploring explainable AI (XAI) and its applications.
-        - Working on natural language processing and computer vision.
-    - title: Semantic Web Technologies
+        - Python, R
+    - title: ML / NLP
       items:
-        - Developing knowledge graphs for cultural heritage preservation.
-        - Researching linked data and ontology design.
+        - PyTorch, HuggingFace Transformers, NVIDIA NeMo, Scikit-learn, LangChain, spaCy
+    - title: Knowledge Graphs
+      items:
+        - GraphDB, RDF, SPARQL, SHACL, CIDOC-CRM, PROV-O, LinkML
+    - title: Data
+      items:
+        - NumPy, Pandas, Matplotlib
+    - title: MLOps
+      items:
+        - MLflow, Weights & Biases, Docker, GitHub Actions
 
-- title: Other Interests
+- title: HuggingFace Models
   type: list
   contents:
-    - <u>Hobbies:</u> Playing chess
-    - <u>Community Involvement:</u> Actively participating in AI and data science communities, mentoring, and organizing events.
+    - "nabin2004/finetuned_Indic_Conformer — Nepali ASR (NeMo)"
+    - "nabin2004/nepali_GPT2 — Nepali GPT-2 language model"
+    - "nabin2004/masking-RoBERTa-XLM — XLM-RoBERTa masked LM"
+    - "nabin2004/WheelSonnet2-355M — GPT-2 355M from scratch"
+    - "nabin2004/WheelSonnet2-355M-it — Instruction-tuned variant"
+    - "nabin2004/WheenSonnet-355M-onnx — ONNX exported model"
+    - "nabin2004/lora_finetuned_gemma — LoRA fine-tuned Gemma"
+
+- title: HuggingFace Datasets
+  type: list
+  contents:
+    - "nabin2004/Wikipedia_Nepali_Articles — 40K+ Nepali Wikipedia articles"
+    - "nabin2004/Location_Names_in_Nepali — Nepali location names dataset"
+    - "nabin2004/Wikipedia_Articles_on_Nepal — English Wikipedia articles on Nepal"
+    - "nabin2004/location-ner-4-BERT — NER dataset for location extraction"
+    - "nabin2004/Cultural_heritage_Narratives — Heritage domain QA dataset"
+    - "nabin2004/NepaliScienceVQA — Nepali science VQA dataset"
+    - "nabin2004/hanuman3d — 3D reconstruction dataset"
+    - "nabin2004/Sonnet-QA-dataset — Sonnet-based QA dataset"
+
+- title: References
+  type: list
+  contents:
+    - "Dr. Tek Raj Chhetri — Postdoctoral Associate, McGovern Institute for Brain Research, MIT — tekraj@mit.edu"
+    - "Supriya Khadka — Undergrad Research Coordinator at Sunway — supriya@sunway.edu.np"
+    - "Suraj Prasai — AI/ML Lead at Wiseyak Inc. — suraj.prasai@wiseyak.com"
