@@ -74,36 +74,66 @@ ninja.data = [{
           section: "News",},{id: "news-no-longer-junior-machine-learning-engineer-wiseyak",
           title: 'No longer Junior Machine Learning Engineer @ Wiseyak',
           description: "",
-          section: "News",},{id: "projects-chessxai",
-          title: 'ChessXAI',
-          description: "Explainable Chess AI - Bridging Strategy and Transparency",
+          section: "News",},{id: "projects-vision-transformer-amp-swin-transformer",
+          title: 'Vision Transformer &amp;amp; Swin Transformer',
+          description: "From-scratch PyTorch implementations of ViT and Swin Transformer papers.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
+            },},{id: "projects-manimator-amp-dualmation",
+          title: 'Manimator &amp;amp; Dualmation',
+          description: "Text-to-math-animation generation using agentic workflows and Manim library, plus hybrid LLM-diffusion educational animation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_project/";
+            },},{id: "projects-netsecmlops",
+          title: 'NetSecMLOps',
+          description: "End-to-end MLOps pipeline for network security models with automated training, validation, and deployment.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_project/";
+            },},{id: "projects-manibench",
+          title: 'ManiBench',
+          description: "A benchmark for testing visual-logic drift and syntactic hallucinations in Manim code generation across 9 LLMs.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-pydplyr",
-          title: 'pydplyr',
-          description: "A Pythonic Approach to Data Manipulation Inspired by R&#39;s dplyr",
+            },},{id: "projects-dialograph",
+          title: 'Dialograph',
+          description: "A decision-theoretic framework for proactive educational dialogue using temporal graphs.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-heritagegraph",
           title: 'HeritageGraph',
-          description: "Preserving Nepal&#39;s cultural heritages using Knowledge graphs",
+          description: "OWL ontology for Nepal&#39;s cultural heritage — aligned with CIDOC-CRM, SHACL validated, with 17,894 inferred triples.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-leetpandas",
-          title: 'LeetPandas',
-          description: "Data Science Interview Preparation platform",
+            },},{id: "projects-wheelsonnet-gpt-2-from-scratch",
+          title: 'WheelSonnet (GPT-2 from Scratch)',
+          description: "124M &amp; 355M GPT-2 from scratch in PyTorch — sentiment, paraphrase detection, sonnet generation, and ONNX export.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-panini-knowledge-graphs",
-          title: 'Panini Knowledge Graphs',
-          description: "Ambitious Project to be planned",
+            },},{id: "projects-dagestan",
+          title: 'Dagestan',
+          description: "Temporal graph memory layer for LLMs — time-aware knowledge graphs replacing flat vector embeddings.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-from-scratch-implementation-of-algorithms",
-          title: 'From Scratch Implementation of Algorithms',
-          description: "",
+            },},{id: "projects-pyturk-minitorch",
+          title: 'PyTurk (MiniTorch)',
+          description: "Minimal PyTorch-style autograd engine and neural network framework from scratch for education.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
+            },},{id: "projects-chessmania",
+          title: 'ChessMania',
+          description: "End-to-end Chess MLOps pipeline — from PGN ingestion to Transformer-powered next-move prediction.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project/";
+            },},{id: "projects-makesense-mlops-pipeline",
+          title: 'Makesense MLOps Pipeline',
+          description: "End-to-end multimodal MLOps pipeline for entity extraction, relationship discovery, and knowledge graph construction.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_project/";
+            },},{id: "projects-papertrail",
+          title: 'PaperTrail',
+          description: "AI-powered research paper discovery, semantic search, and RAG-based Q&amp;A over arXiv papers.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'email',
